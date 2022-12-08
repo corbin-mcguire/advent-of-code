@@ -7,7 +7,6 @@ fs.readFile(`${__dirname}/input.txt`, 'utf8', (err, data) => {
   }
 
   let total = 0;
-  let max = 0;
   const totals = [];
 
   // Split the text file input on newLines
@@ -15,8 +14,6 @@ fs.readFile(`${__dirname}/input.txt`, 'utf8', (err, data) => {
     // if not an empty line
     if (entry) {
       total += Number.parseInt(entry);
-      // update the max value if the new total is larger
-      max = total > max ? total : max;
     }
     // move onto next elf
     else {
@@ -25,6 +22,11 @@ fs.readFile(`${__dirname}/input.txt`, 'utf8', (err, data) => {
     }
   });
 
+  // PART 1
+  const max = totals.sort((a, b) => b - a);
+  console.log('Highest calories for single elf:', max[0]);
+
+  // PART 2
   // sort totals in descending order, take the first 3 entries and add them together
   const topThreeTotal = totals
     .sort((a, b) => b - a)
