@@ -5,4 +5,4 @@
 | Day | Challenge           | Completed | Stars |
 | --- | ------------------- | --------- | ----- |
 | 1   | Calorie Counting    | yes       | 2     |
-| 2   | Rock Paper Scissors |           |       |
+| 2   | Rock Paper Scissors | yes       | 2     |
