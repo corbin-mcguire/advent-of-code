@@ -2,9 +2,12 @@
 
 ## 2022
 
-| Day | Challenge                | Completed | Stars |
-| --- | ------------------------ | --------- | ----- |
-| 1   | Calorie Counting         | yes       | 2     |
-| 2   | Rock Paper Scissors      | yes       | 2     |
-| 3   | Rucksack Reoriganization | yes       | 2     |
-| 4   | Camp Cleanup             | yes       | 2     |
+https://adventofcode.com/2022
+
+| Day | Challenge                |
+| --- | ------------------------ |
+| 1   | Calorie Counting         |
+| 2   | Rock Paper Scissors      |
+| 3   | Rucksack Reoriganization |
+| 4   | Camp Cleanup             |
+| 5   | Supply Stacks            |
